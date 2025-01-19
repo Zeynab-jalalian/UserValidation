@@ -11,7 +11,7 @@
         <h1>Username Validation</h1>
         <form id="usernameForm">
             <label for="username">Enter your username:</label>
-            <input type="text" id="username" placeholder="Username" autocomplete="off">
+            <input type="text" id="username" placeholder="Username" autocomplete="off" onkeydown="check()">
             <p class="error-message" id="errorMessage">Invalid username!</p>
             <button type="submit">Validate</button>
         </form>
